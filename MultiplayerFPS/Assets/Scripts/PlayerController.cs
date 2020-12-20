@@ -8,12 +8,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     public float speed = 5f;
 
+    
     private PlayerMotor motor;
     public Joystick movement;
 
     public Joystick cam;
-    public float lookSensitivity = 3f;
+    
 
+    public float lookSensitivity = 3f;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
